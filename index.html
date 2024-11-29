@@ -5,113 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>p-h-a-1</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"/>
 </head>
 <body>
   <!-- header start here -->
-    <header class="container mx-auto flex justify-between items-center py-5">
+    <header class="container mx-auto flex justify-between items-center py-5 flex-col md:flex-row  gap-4">
             <div class="logo font-bold text-3xl deco">
                 <h1>Nerdy</h1>
             </div>
-            <div class="header-content flex gap-12 text-slate-600 ">
+            <div class="header-content flex gap-12 text-[#0F0F0F] flex-col md:flex-row">
                  <a href="#">Home</a>
                  <a href="#">Projects</a>
                  <a href="#">About</a>
                  <a href="#">Contact</a>
 
             </div>
-            <div class="header-button bg-lime-300 px-6 py-2 rounded-3xl font-bold">
+            <div class="header-button bg-[#D8FB78] px-6 py-2 rounded-3xl font-bold">
                 <button>Buy Now</button>
             </div>
     
     </header>
 <!-- header end here -->  
 <!-- hero section start here -->
-   <section class="container mx-auto flex justify-between items-center mt-5 py-10">
-
-    <div class="hero-text">
-           <h1 class="text-6xl font-bold pb-4 leading-tight">Designed to <br> combine style and <br>
-            functionality.</h1>
-            <p class="text-slate-600 pb-4">Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding <br> skills through a diverse range of challenges for all experience levels.</p>
-            <button class=" bg-lime-300 px-6 py-2 rounded-3xl font-bold"> Explore Deal</button>
+  <section class="hero-section container mx-auto mt-10 flex flex-col justify-center items-center gap-10 text-center md:flex md:flex-col md:items-center md:gap-10 lg:flex-row lg:justify-between lg:text-start">
+    <div class="hero-content flex flex-col justify-center items-center lg:block">
+         <h1 class="text-4xl font-bold mb-5 leading-tight md:text-6xl md:font-bold md:mb-10 md:leading-tight ">Designed to <br> combine style and <br> functionality.</h1>
+         <p class="text-[#0F0F0F] mb-5  md:mb-10">Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding <br>  skills through a diverse range of challenges for all experience levels.</p>
+         <button class="bg-[#D8FB78] px-6 py-2 rounded-3xl font-bold">Explore Deal</button>
     </div>
     <div class="hero-img">
-        <img src="Rectangle 17854.png" alt="">
+        <img src="Rectangle 17854.png" class="px-10 lg:px-0">
     </div>
-
-   </section>
+  </section>
 <!-- hero section end here -->
-
 <!-- product section start here -->
- <section class="container mx-auto flex flex-col items-center my-5">
-    <div class="product-content flex flex-col items-center text-center">
-        <h1 class="font-bold text-xl mb-3">Best Selling Products</h1>
-        <p class="text-slate-600 pb-4">Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding skills through <br> a diverse range of challenges for all experience levels.</p>
-    </div>
-    <div class=" container mx-auto product-cards flex justify-between my-5 flex-wrap">
-        <div class="product-card rounded-2xl border p-5">
-            <img src="woman-model-demonstrating-winter-cloths 1.png" class="mb-4 bg-zinc-100 w-50 px-10 pt-3 rounded-2xl">
-            <h1 class="font-bold mb-2">Balenciaga Floral-Print Silk Shirt</h1>
-            <p class="mb-2 text-slate-600">$1644.00</p>
-            <button  class=" bg-lime-300 px-32 py-2 rounded-3xl font-semibold mb-2">Buy Now</button>
-            <div class="cart">
-                <button  class=" bg px-24 py-2 rounded-3xl font-semibold mb-2 border">Add to cart</button>
-                <i class="ri-heart-fill p-2 rounded-full text-red-600 border border-red-600"></i>
+<section class=" product-section container mx-auto py-24">
+   <div class="product-deteals">
+      <h1 class="text-3xl font-semibold text-center mb-5">Best Selling Products</h1>
+      <p class="text-[#0F0F0F] text-center mb-5">Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding skills through  <br> a diverse range of challenges for all experience levels.</p>
+   </div>
+   <div class="product-cards flex flex-col md:flex-row justify-center items-center flex-wrap gap-4 lg:gap-16">
 
-            </div>
-        </div>
-        <div class="product-card rounded-2xl border p-5">
-            <img src="woman-model-demonstrating-winter-cloths 1.png" class="mb-4 bg-zinc-100 w-50 px-10 pt-3 rounded-2xl">
-            <h1 class="font-bold mb-2">Balenciaga Floral-Print Silk Shirt</h1>
-            <p class="mb-2 text-slate-600">$1644.00</p>
-            <button  class=" bg-lime-300 px-32 py-2 rounded-3xl font-semibold mb-2">Buy Now</button>
-            <div class="cart">
-                <button  class=" bg px-24 py-2 rounded-3xl font-semibold mb-2 border">Add to cart</button>
-                <i class="ri-heart-line p-2 rounded-full border"></i>
-
-            </div>
-        </div>
-        <div class="product-card rounded-2xl border p-5">
-            <img src="woman-model-demonstrating-winter-cloths 1.png" class="mb-4 bg-zinc-100 w-50 px-10 pt-3 rounded-2xl">
-            <h1 class="font-bold mb-2">Balenciaga Floral-Print Silk Shirt</h1>
-            <p class="mb-2 text-slate-600">$1644.00</p>
-            <button  class=" bg-lime-300 px-32 py-2 rounded-3xl font-semibold mb-2">Buy Now</button>
-            <div class="cart">
-                <button  class=" bg px-24 py-2 rounded-3xl font-semibold mb-2 border">Add to cart</button>
-                <i class="ri-heart-line p-2 rounded-full border"></i>
-
-            </div>
+    <div class="card border w-[380px] h-[550px]  md:w-[29rem] md:h-[40rem] flex flex-col justify-center items-center rounded-3xl">
+        <img src="woman-model-demonstrating-winter-cloths 1.png" class="bg-[#0F0F0F0D] w-[85%] h-[55%] md:w-[85%] md:h-[60%] rounded-2xl">
+        <h1 class="text-lg font-bold mr-[3rem] mt-5 md:mr-[7.5rem] md:mt-3">Balenciaga Floral-Print Silk Shirt</h1>
+        <p class="mt-3 mr-[16rem] md:mr-[20.5rem]">$1644.00</p>
+        <button class="bg-[#D8FB78] px-[130px]  md:px-[170px] py-3 rounded-3xl font-semibold mt-4">Buy Now</button>
+        <div class="card-reveiw mt-3">
+            <button class="border px-[85px] md:px-[126px] py-3 rounded-3xl font-semibold">Add to cart</button>
+            <i class="ri-heart-fill text-red-600 border border-red-600 rounded-full p-2 text-2xl ml-4"></i>
+            
         </div>
     </div>
+    <div class="card border w-[380px] h-[550px]  md:w-[29rem] md:h-[40rem] flex flex-col justify-center items-center rounded-3xl">
+        <img src="woman-model-demonstrating-winter-cloths 1.png" class="bg-[#0F0F0F0D] w-[85%] h-[55%] md:w-[85%] md:h-[60%] rounded-2xl">
+        <h1 class="text-lg font-bold mr-[3rem] mt-5 md:mr-[7.5rem] md:mt-3">Balenciaga Floral-Print Silk Shirt</h1>
+        <p class="mt-3 mr-[16rem] md:mr-[20.5rem]">$1644.00</p>
+        <button class="bg-[#D8FB78] px-[130px]  md:px-[170px] py-3 rounded-3xl font-semibold mt-4">Buy Now</button>
+        <div class="card-reveiw mt-3">
+            <button class="border px-[85px] md:px-[126px] py-3 rounded-3xl font-semibold">Add to cart</button>
+            <i class="ri-heart-fill text-red-600 border border-red-600 rounded-full p-2 text-2xl ml-4"></i>
+            
+        </div>
+    </div>
+    <div class="card border w-[380px] h-[550px]  md:w-[29rem] md:h-[40rem] flex flex-col justify-center items-center rounded-3xl">
+        <img src="woman-model-demonstrating-winter-cloths 1.png" class="bg-[#0F0F0F0D] w-[85%] h-[55%] md:w-[85%] md:h-[60%] rounded-2xl">
+        <h1 class="text-lg font-bold mr-[3rem] mt-5 md:mr-[7.5rem] md:mt-3">Balenciaga Floral-Print Silk Shirt</h1>
+        <p class="mt-3 mr-[16rem] md:mr-[20.5rem]">$1644.00</p>
+        <button class="bg-[#D8FB78] px-[130px]  md:px-[170px] py-3 rounded-3xl font-semibold mt-4">Buy Now</button>
+        <div class="card-reveiw mt-3">
+            <button class="border px-[85px] md:px-[126px] py-3 rounded-3xl font-semibold">Add to cart</button>
+            <i class="ri-heart-fill text-red-600 border border-red-600 rounded-full p-2 text-2xl ml-4"></i>
+            
+        </div>
+    </div>
 
- </section>
+   </div>
+</section>
 <!--product section end here  -->
 <!-- footer section start here -->
- <section class="footer bg-zinc-100 py-20">
-    <section class="container mx-auto flex flex-col items-center gap-5 ">
-        <h1 class="font-bold text-2xl">Nerdy</h1>
-        <div class="footer-content flex gap-12 text-slate-600 ">
-         <a href="#">Home</a>
-         <a href="#">Projects</a>
-         <a href="#">About</a>
-         <a href="#">Contact</a>
-        </div>
-        <div class="footer-icon flex justify-center gap-3 border-b border-stone-200 w-9/12 pb-6">
-         <i class="ri-facebook-circle-fill text-blue-600 text-3xl"></i>
-         <i class="ri-twitter-x-fill text-3xl"></i>
-         <i class="ri-linkedin-fill text-blue-600 text-3xl"></i>
-         <i class="ri-youtube-fill text-red-600 text-3xl"></i>
-     
-        </div>
-        <div class="footer-input">
-         <input type="email" placeholder="Enter your email address" class="border rounded-3xl pe-40 ps-3 py-2 ">
-         <button class="bg-lime-300 px-6 py-2 rounded-3xl font-bold">Subscribe</button>
-        </div>
-     
-      </section>
- </section>
+ 
+<section class="footer flex flex-col justify-center items-center gap-5 bg-[#F2F4F6] py-16"> 
+<div class="footer-logo">
+    <h1 class="font-bold text-3xl">Nerdy</h1>
+</div>
+<div class="fotter-content flex gap-12 text-[#0F0F0F] flex-col md:flex-row">
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</div>
+<div class="footer-social flex justify-center items-center gap-4 ">
+    <img src="Vector (1).png" class="bg-[#00B2FF] rounded-full px-2 py-1">
+    <img src="Vector.png" class="bg-black rounded-full px-2 py-[10px]">
+    <img src="linkedin-icon 1.png" alt="">
+    <img src="fi_3670209.png" alt="">
+</div>
+<div class="footer-input flex flex-col md:flex-row gap-3 justify-center items-center">
+    <input type="email" placeholder="Enter your email address" class="border rounded-3xl py-3 md:px-20 px-12">
+    <button class="bg-[#D8FB78] px-6 py-3 rounded-3xl font-bold"> Subscribe</button>
+</div>
+</section>
  
 <!--footer section end here  -->
 </body>
